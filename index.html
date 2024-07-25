@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Formulário teste Upflow.me</title>
+</head>
+
+<body>
+  <h2>Formulário Upflow.me</h2>
+  <div class="container">
+    <div class="row mt-3 justify-content-end">
+      <div class="col-auto">
+        <button id="addButton" class="btn btn-primary" type="button">Adicionar Produto</button>
+      </div>
+      <div class="col-auto">
+        <button id="saveButton" class="btn btn-primary" type="button">Salvar</button>
+
+      </div>
+      <div id="mainDiv">
+      </div>
+
+
+      <div class="modal" id="mainModal" tabindex="-1" aria-labelledby="mainModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalBody">
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id="modalSave">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="modalRat" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 id="tituloModal" class="modal-title">RATEIO</h5>
+            </div>
+            <div id="bodyRat" class="modal-body" style="overflow-y: auto; max-height: 400px;">
+            </div>
+            <div class="modal-footer">
+              </button>
+              <button id="modalSaveRat" type="button" class="btn btn-primary">Salvar</button>
+              <button id="modalClose" type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.1/jquery.maskMoney.min.js"
+      integrity="sha512-0P/3WcVoLIAGw88XIgLfEe2oWNKFmW0iffc89QxqITfoPJVHUBBYnBj+ikkad+K76Z6NkLNIJttdi1LmiubfeA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

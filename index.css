@@ -1,0 +1,18 @@
+.small-input {
+    width: 100px; /* Adjust the width as needed */
+    height: calc(1.5em + .75rem + 2px); /* Ensure consistent height with form-control */
+    padding: .375rem .75rem; /* Adjust padding for the input */
+    font-size: 0.875rem; /* Adjust font size */
+}
+
+#addRow{
+    margin-top: 24px;
+}
+  .dropdown .btn {
+    width: auto; /* Ensures button width adjusts based on content */
+    min-width: 100px; /* Adjust as needed for your design */
+    max-width: none; /* Allows button to expand as needed */
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Hides overflow content if any */
+    text-overflow: ellipsis; /* Shows ellipsis (...) for overflow */
+  }
